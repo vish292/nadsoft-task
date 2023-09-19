@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>project</title>
+  </head>
+
+  <body>
+    <div class="project">
+      <div class="aside">
+        <div class="box">
+          <h4 class="text-white">Project Name</h4>
+          <ul class="list-group p-2 navbar-nav">
+            <li class="list-group-item active">
+              <i class="fa-solid fa-table-columns"></i>
+              <span class="ml-1">Dashboard</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-regular fa-envelope"></i>
+              <span class="ml-1">Messages</span>
+              <span class="bg-danger text-white rounded p-1 ml-1">20</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-solid fa-user-group"></i>
+              <span class="ml-1">Customers</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-solid fa-play"></i>
+              <span class="ml-1">Campaigns</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="ml-1">Calender</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-solid fa-tv"></i>
+              <span class="ml-1">Content</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-solid fa-video"></i>
+              <span class="ml-1">Videos</span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa-solid fa-table-list"></i>
+              <span class="ml-1">List</span>
+            </li>
+          </ul>
+          <div class="profile text-capitalize">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="logo rounded-circle text-uppercase text-center">
+                  jm
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="profileName">
+                  <span class="myprofile">My Profile</span>
+                  <p>jeff modica</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- features -->
+
+    <section class="features">
+      <!-- navbar -->
+      <section class="pNavbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <form class="form-inline my-2 my-lg-0">
+              <label for="search"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></label>
+              <span class="ml-2">search</span>
+            </form>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  ><i class="fa-regular fa-envelope"></i>
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-regular fa-message"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-gear"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-regular fa-circle-question"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-user fa-regular"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+
+      <!-- notification  -->
+      <section
+        class="notificationSection d-flex align-items-center text-capitalize"
+      >
+        <strong class="mr-4">notification</strong>
+        <button class="notibtn m-1">
+          <span class="bg-danger text-white rounded-circle p-1">5</span>
+          unreplied <strong>mails</strong>
+          <!-- <a href="#" class="badge badge-dark">&rarr;</a> -->
+          <a href="#">
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </button>
+        <button class="notibtn m-1">
+          <span class="bg-danger text-white rounded-circle p-1">12</span>
+          unreplied <strong>sms</strong>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="notibtn m-1">
+          <span class="bg-danger text-white rounded-circle p-1">3</span>
+          unreplied <strong>missed calls</strong>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <span class="ml-auto mr-1 needHelp">need help?</span>
+        <div class="circle">
+          <span class="circle__content"><i class="fa fa-play"></i></span>
+        </div>
+      </section>
+
+      <!-- cards -->
+      <section class="main">
+        <div class="row">
+          <div class="col mr-6">
+            <div class="cardSection text-capitalize">
+              <ul class="list-inline cardList">
+                <li class="list-inline-item">
+                  <strong>messages</strong>
+                </li>
+                <li class="list-inline-item active" id="day">
+                  <a href="">day</a>
+                </li>
+                <li class="list-inline-item" id="week">
+                  <a href="">week</a>
+                </li>
+                <li class="list-inline-item" id="weeks">
+                  <a href="">2week</a>
+                </li>
+                <li class="list-inline-item" id="month">
+                  <a href="">month</a>
+                </li>
+              </ul>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row messagesCard">
+                    <div class="col-2">
+                      <i class="fa-regular fa-envelope fa-2x"></i>
+                    </div>
+                    <div class="col-2">sms</div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-primary" id="sentSms">160</strong>
+                        <span>sent</span>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-info" id="recievedSms">75</strong>
+                        <span>recieved</span>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-danger" id="unreadSms">5</strong>
+                        <span>unread</span>
+                      </div>
+                    </div>
+                    <div class="col-2 cardArrow">
+                      <!-- <i class="fa-regular fa-circle-right fa-2x"></i> -->
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                  <!-- 1 row -->
+                  <div class="row messagesCard">
+                    <div class="col-2">
+                      <i class="fa-regular fa-message fa-2x"></i>
+                    </div>
+                    <div class="col-2">emails</div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-primary" id="sentRecieved"
+                          >300</strong
+                        >
+                        <span>sent</span>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-info" id="emailRecieved">99</strong>
+                        <span>recieved</span>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-danger" id="unreadEmail">12</strong>
+                        <span>unread</span>
+                      </div>
+                    </div>
+                    <div class="col-2 cardArrow">
+                      <!-- <i class="fa-regular fa-circle-right fa-2x"></i> -->
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                  <!-- r-3 -->
+                  <div class="row messagesCard">
+                    <div class="col-2">
+                      <i class="fa-solid fa-phone fa-2x"></i>
+                    </div>
+                    <div class="col-2">calls</div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-primary" id="call">160</strong>
+                        <span>dailed</span>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-info" id="complete">75</strong>
+                        <span>complet</span>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <div class="d-flex flex-column">
+                        <strong class="text-danger" id="missed">5</strong>
+                        <span>missed</span>
+                      </div>
+                    </div>
+                    <div class="col-2 cardArrow">
+                      <!-- <i class="fa-regular fa-circle-right fa-2x"></i> -->
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="cardSection text-capitalize">
+              <ul class="list-inline cardList">
+                <li class="list-inline-item">
+                  <strong>pipeline</strong>
+                </li>
+                <a href="">full pipeline &rarr;</a>
+              </ul>
+              <div class="card">
+                <div class="card-body">
+                  <ul class="pipeline">
+                    <li class="p-1">
+                      <div class="row pipe">
+                        <div class="col-6">
+                          <strong class="mr-5 p-1">recived</strong>
+                        </div>
+                        <div class="col-2">
+                          <span class="badge badge-pill badge-light">3</span>
+                        </div>
+                        <div class="col-4">
+                          <span class="badge badge-pill badge-success"
+                            >$3000</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="p-1">
+                      <div class="row pipe">
+                        <div class="col-6">
+                          <strong class="mr-5 p-1">contact</strong>
+                        </div>
+                        <div class="col-2">
+                          <span class="badge badge-pill badge-light">2</span>
+                        </div>
+                        <div class="col-4">
+                          <span class="badge badge-pill badge-success"
+                            >$2000</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="p-1">
+                      <div class="row pipe">
+                        <div class="col-6">
+                          <strong class="mr-5 p-1">appointment</strong>
+                        </div>
+                        <div class="col-2">
+                          <span class="badge badge-pill badge-light">2</span>
+                        </div>
+                        <div class="col-4">
+                          <span class="badge badge-pill badge-success"
+                            >$2000</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="p-1">
+                      <div class="row pipe">
+                        <div class="col-6">
+                          <strong class="mr-5 p-1">sold</strong>
+                        </div>
+                        <div class="col-2">
+                          <span class="badge badge-pill badge-light">1</span>
+                        </div>
+                        <div class="col-4">
+                          <span class="badge badge-pill badge-success"
+                            >$1000</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li class="p-1">
+                      <div class="row pipe">
+                        <div class="col-6">
+                          <strong class="mr-5 p-1">lost</strong>
+                        </div>
+                        <div class="col-2">
+                          <span class="badge badge-pill badge-light">3</span>
+                        </div>
+                        <div class="col-4">
+                          <span class="badge badge-pill badge-danger"
+                            >$3000</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

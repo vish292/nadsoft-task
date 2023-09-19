@@ -1,0 +1,353 @@
+body {
+  display: flex;
+  /* width: 1876px; */
+}
+
+.project {
+  /* height: 100% */
+  height: 1000px;
+  display: flex;
+}
+
+/* navbar */
+.navbar i {
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  color: #979aa3;
+}
+
+.navbar span {
+  margin-left: 1.5rem !important;
+  color: #979aa3;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+
+/* cards
+ */
+.box {
+  width: 290px;
+  height: 100%;
+  background-color: #0e205e;
+  position: relative;
+}
+.box h4 {
+  padding: 15px 17px;
+}
+
+li.list-group-item {
+  background-color: transparent;
+  color: #7181bc;
+  border: 0;
+  font-size: 17px;
+}
+
+.logo {
+  color: #e6f2ff;
+  background-color: #284ef1;
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  margin-top: 16px;
+  margin-left: 21px;
+}
+
+.profile {
+  color: #d9e4e8;
+  background-color: #192c71;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  left: 30px;
+  border-radius: 10px;
+}
+
+.profileName {
+  margin: 16px;
+}
+.profileName > p {
+  color: #5669ae;
+}
+/* main section */
+
+.main {
+  padding: 0 50px;
+  background-color: #f0f0f2;
+  /* height: 100vh; */
+}
+
+/* .cardSection{
+    padding: 40px 50px;
+} */
+.col-md-5 {
+  margin-right: 95px;
+}
+
+.messagesCard {
+  padding: 35px;
+}
+
+.cardSection ul li a {
+  padding: 0 20px;
+  color: #b6b9be;
+  font-size: 16px;
+}
+
+.cardSection ul li a strong {
+  font-size: 25px;
+}
+
+li.list-inline-item.active {
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+  color: #272729 !important;
+}
+.cardSection ul li a:hover {
+  border-bottom: 1px solid blue;
+}
+
+.notibtn a i :hover {
+  color: #007bff;
+}
+/* pipeline */
+
+.pipeline .row {
+  padding: 16px;
+}
+.pipeline li {
+  border-bottom: 1px solid red;
+}
+
+.card {
+  width: 638px;
+  height: 382px;
+}
+
+/* notification */
+
+.notificationSection {
+  height: 166px;
+  background-color: #f0f0f2;
+  width: 100%;
+  padding: 30px 56px;
+}
+
+.circle {
+  display: inline-table;
+  vertical-align: middle;
+  width: 23px;
+  height: 33px;
+  border: 1px solid blue;
+  background-color: #f0f0f2;
+  border-radius: 50%;
+}
+
+.circle__content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.notibtn {
+  width: 336;
+  height: 90px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  background-color: #fff;
+  border: 2px solid #dedde2;
+  /* padding: 26px 53px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.notibtn i {
+  border-radius: 10px;
+  /* background: red; */
+  /* padding: 8px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #dedde2;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.notibtn i :hover {
+  border: 2px solid #007bff !important;
+}
+.cardArrow i {
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #dedde2;
+  cursor: pointer;
+}
+
+
+
+/* responsive */
+
+@media (max-width: 600px) {
+  .aside {
+    display: none;
+  }
+  .cardSection ul li a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 15px;
+  }
+  .notificationSection {
+    background-color: #f0f0f2;
+    width: 100%;
+    display: flex;
+    padding: 30px 56px;
+    flex-direction: column;
+    height: 36%;
+  }
+
+  .notibtn {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid #dedde2;
+    padding: 26px 53px;
+  }
+  .needHelp {
+    margin-left: 0;
+    border-bottom: 10px;
+    align-items: center;
+  }
+  section.main {
+    margin-top: 263px;
+    height: 100%;
+  }
+
+  section.main {
+    margin-top: 0;
+  }
+
+  .messagesCard > .col-md-2 {
+    width: 16%;
+    height: 26px;
+  }
+
+  .cardSection {
+    margin-top: 15px;
+  }
+
+  .pipeline .row {
+    padding: 0;
+  }
+  .pipe .col,
+  .col-1,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-auto,
+  .col-lg,
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-auto,
+  .col-md,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-auto,
+  .col-sm,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-auto,
+  .col-xl,
+  .col-xl-1,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-auto {
+    position: relative;
+    width: 40%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 1200px) {
+}
+
+/* //::-webkit-slider-runnable-track */
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+.my-container {
+  transition: 0.4s;
+}
+.active-nav {
+  margin-left: 0;
+}
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+#menu-btn {
+  background-color: #100901;
+  color: #fff;
+  margin-left: -62px;
+}
